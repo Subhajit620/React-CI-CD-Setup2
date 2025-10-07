@@ -22,8 +22,12 @@ jobs:
               uses: actions/checkout@v2
 
 
-            - name: "Install dependencies"
-              run: npm ci
+            # - name: "Install dependencies"
+            #   run: npm ci
+
+
+            - name: "List directories"
+              run: ls
 
 
 
